@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proof Of Work</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Raleway", sans-serif;
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    .container {
+        padding: 5rem 3rem;
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+
+    h1 {
+        font-size: 15vw;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .works {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+
+    .work {
+        width: calc(100% / 2 - 2rem);
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+
+    .work img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .work p {
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .work span {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 0.9rem;
+        margin-top: 0.25rem;
+    }
+
+    @media (max-width: 768px) {
+        .work {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>My Works</h1>
+        <div class="works">
+            <div class="work">
+                <img src="https://images.pexels.com/photos/8467429/pexels-photo-8467429.jpeg" alt="">
+                <p>Ethereal Dreams</p>
+                <span>Visual storytelling</span>
+            </div>
+            <div class="work">
+                <img src="https://images.pexels.com/photos/33276110/pexels-photo-33276110.jpeg" alt="">
+                <p>Midnight Bloom</p>
+                <span>Dark elegance</span>
+            </div>
+            <div class="work">
+                <img src="https://images.pexels.com/photos/3378993/pexels-photo-3378993.jpeg" alt="">
+                <p>Golden Hour</p>
+                <span>Warm minimalism</span>
+            </div>
+            <div class="work">
+                <img src="https://images.pexels.com/photos/1231258/pexels-photo-1231258.jpeg" alt="">
+                <p>Urban Solace</p>
+                <span>City life reimagined</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1558865869-c93f6f8482af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="">
+                <p>Velvet Skies</p>
+                <span>Soft gradients</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1541331270253-b7cb940d4e1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="">
+                <p>Serene Moments</p>
+                <span>Peaceful composition</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1562157697-74f3f1deab4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI4fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Neon Reflections</p>
+                <span>Modern aesthetics</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY3fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Ocean Whispers</p>
+                <span>Coastal serenity</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1601047656464-f4e7621681bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI4fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Pastel Paradise</p>
+                <span>Soft color palette</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1596806906801-d328b0c8bcc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Silent Poetry</p>
+                <span>Minimal expression</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1596805892053-7c2180568a1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA4fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Mystic Haze</p>
+                <span>Dreamy atmosphere</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/flagged/photo-1565666680395-793cc9d1afe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAzfHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Lunar Glow</p>
+                <span>Night photography</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1536621796770-f31c101df927?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzU1fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Amber Essence</p>
+                <span>Warm tones</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1572566201797-81b5e325dd6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzQ3fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Frosted Glass</p>
+                <span>Translucent beauty</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1617972883136-c4deaaed0f9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzI3fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Wabi Sabi</p>
+                <span>Imperfect perfection</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1535083252457-6080fe29be45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzIzfHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Azure Horizon</p>
+                <span>Endless blue</span>
+            </div>
+            <div class="work">
+                <img src="https://plus.unsplash.com/premium_photo-1728014305999-2515a0b4f575?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzI1fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Bloom & Decay</p>
+                <span>Natural cycles</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1608922804825-b546ae16006b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzEwfHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Monochrome Magic</p>
+                <span>Black & white study</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjkxfHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Wild & Free</p>
+                <span>Nature's canvas</span>
+            </div>
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjc2fHxhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <p>Soft Focus</p>
+                <span>Blurred lines</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.3.15/dist/lenis.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const lenis = new Lenis();
+            lenis.on('scroll', ScrollTrigger.update);
+            gsap.ticker.add((time) => {
+                lenis.raf(time * 1000);
+            });
+            gsap.ticker.lagSmoothing(0);
+
+
+            const works = gsap.utils.toArray(".work img");
+
+            const isDesktop = window.innerWidth > 768;
+
+            works.forEach((eachWork, index) => {
+
+                gsap.set(eachWork, {
+                    rotation: index % 2 === 0 ? -50 : 50,
+                    transformOrigin: "center center",
+                    y: isDesktop ? 500 : 350,
+                    opacity: 0,
+
+                });
+
+
+                ScrollTrigger.create({
+                    trigger: eachWork,
+                    start: isDesktop ? "top 100%" : "top 120%",
+                    scrub: true,
+                    onEnter: () => {
+                        gsap.to(eachWork, {
+                            rotation: 0,
+                            y: 0,
+                            opacity: 1,
+                            duration: 1,
+                            ease: "power2.inOut",
+                            delay: isDesktop ? index % 2 === 0 ? 0 : 0.25 : 0
+                        });
+                    }
+                })
+
+            });
+            
+        });
+    </script>
+</body>
+</html>
